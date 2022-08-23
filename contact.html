@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact me</title>
+  </head>
+  <body>
+    <form>
+      <h2>Contact Me</h2>
+      <hr />
+      <!-- label for defining user name-->
+      <label for="name">Name</label>
+      <br />
+      <!-- input with required fields -->
+      <input type="text" name="name" required placeholder="Enter Your name" />
+      <br /><br />
+      <!-- label for defining user email-->
+      <label for="email">Email</label>
+      <br />
+      <input type="email" name="email" required placeholder="test@gmail.com" />
+      <br /><br />
+      <!-- label for defining user contact no-->
+      <label for="contact">Contact No</label>
+      <br />
+      <input
+        type="number"
+        name="contact"
+        placeholder="Enter your contact number"
+      />
+      <br /><br />
+      <!-- label for defining user information-->
+      <label for="message">Your Message</label>
+      <br />
+      <!-- text area -->
+      <textarea name="message" cols="60" rows="10"></textarea>
+      <br /><br />
+      <!--button with alert-->
+      <button type="submit" onclick="alert('submit')">Submit</button>
+    </form>
+
+    <br /><br />
+    <a href="index.html">Back</a>
+  </body>
+</html>
